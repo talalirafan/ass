@@ -1362,23 +1362,3 @@ hr{
   .companies img { height: 22px; }
   .nav-links ul { gap: 12px; }
 }
-/* Keep left-aligned between 900px and 300px */
-@media (max-width: 900px) and (min-width: 301px) {
-  .hero {
-    flex-direction: column;
-    align-items: flex-start !important;
-    text-align: left !important;
-    padding: 20px;
-  }
-
-  .hero-text,
-  .hero-text h1,
-  .hero-text p {
-    text-align: left !important;
-  }
-
-  .companies {
-    justify-content: flex-start !important;
-    gap: 16px;
-  }
-}
